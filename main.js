@@ -14,31 +14,39 @@ console.log("O tamanho do Array nomes é: " + nomes.length);
 // EXERCÍCIO 02 - Adicionando elementos ao final
 // Adicione dois nomes ao final do array criado anteriormente.
 // Método sugerido: push
+nomes.push('roberto, jeremias'); 
 
 // EXERCÍCIO 03 - Inserindo no início
 // Adicione um nome no início do array.
 // Método sugerido: unshift
+nomes.unshift('robrto');
 
 // EXERCÍCIO 04 - Removendo o último
 // Remova o último nome do array e exiba o nome removido e o array restante.
 // Método sugerido: pop
+nomes.pop();
 
 // EXERCÍCIO 05 - Removendo o primeiro
 // Remova o primeiro nome do array e exiba o nome removido e o array restante.
 // Método sugerido: shift
+nomes.shift();
 
 // EXERCÍCIO 06 - Removendo e adicionando elementos
 // Crie um array com cinco frutas. Remova duas frutas a partir da segunda posição e adicione duas novas frutas no lugar.
 // Método sugerido: splice
-
+let frutas=['pera' , 'banana' , 'morango' , 'melancia'];
+nomes.slice(1, 2, 'uva' , 'maça');
 // EXERCÍCIO 07 - Exibindo o tamanho do array
 // Exiba o tamanho do array de frutas após a alteração.
 // Método sugerido: length
+console.log(frutas. length);
 
+console.log(frutas);
 // EXERCÍCIO 08 - Criando um histórico de páginas
 // Crie um array chamado historico e simule acessos às páginas "home", "sobre" e "contato".
 // Método sugerido: push
-
+let historico = ['home' , 'sobre' , 'contato',]
+historico.push
 // EXERCÍCIO 09 - Removendo o último acesso do histórico
 // Remova o último acesso do histórico e exiba "Saída da página: contato".
 // Método sugerido: pop
